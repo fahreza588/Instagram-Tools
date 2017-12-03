@@ -1,9 +1,9 @@
 'use strict'
 
 /** UNFOLLOW NOT FOLLOWBACK **/
-/** CODE BY CCOCOT | CCOCOT.CO **/
-/** ccocot@bc0de.net **/
-/** BC0DE.NET - NAONLAH.NET - WingKocoli **/
+/** CODE BY Fahreza **/
+/** @fahreza0008 **/
+/** Fahreza - Banjarmasin **/
 
 const Client = require('instagram-private-api').V1;
 const delay = require('delay');
@@ -132,8 +132,8 @@ const Excute = async function(User,sleep){
 
 console.log(chalk`
 {bold Instagram Unfollow not Followback Tools Media}
-{green BC0DE.NET - NAONLAH.NET - WingKocoli}
-{bold.red Code By Ccocot | ccocot@bc0de.net}
+{green Fahreza - Banjarmasin}
+{bold.red Code By Fahreza}
 `);
 
 inquirer.prompt(User)
