@@ -1,9 +1,9 @@
 'use strict'
 
 /** BOT LIKE **/
-/** CODE BY CCOCOT | CCOCOT.CO **/
-/** ccocot@bc0de.net **/
-/** BC0DE.NET - NAONLAH.NET - WingKocoli **/
+/** CODE BY Fahreza **/
+/** @fahreza0008 **/
+/** Fahreza - Banjarmasin **/
 /** NOTE : RUN WITH PM2 **/
 
 const Client = require('instagram-private-api').V1;
@@ -92,8 +92,8 @@ const Excute = async function(User, sleep){
 
 console.log(chalk`
 {bold Instagram BOT LIKE v1}
-{green BC0DE.NET - NAONLAH.NET - WingKocoli}
-{bold.red Code By Ccocot | ccocot@bc0de.net}
+{green Fahreza - Banjarmasin}
+{bold.red Code By Fahreza}
 {bold /** NOTE : RUN WITH PM2 **/}
 `);
 
