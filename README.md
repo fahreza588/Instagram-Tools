@@ -3,7 +3,7 @@
 # install
 
 * git clone https://github.com/fahreza588/Instagram-Tools.git
-* cd Unfollow-not-Followback
+* cd Instagram-Tools
 * npm install
 
 Thank's To https://github.com/huttarichard/instagram-private-api For API
