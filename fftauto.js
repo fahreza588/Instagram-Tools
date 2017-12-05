@@ -204,8 +204,8 @@ const Excute = async function(User, TargetUsername, Text, Sleep){
 
 console.log(chalk`
 {bold Instagram FFT Auto Comment, Auto Like, Auto Follow}
-{green BC0DE.NET - NAONLAH.NET - WingKocoli}
-{bold.red Code By Ccocot | ccocot@bc0de.net}
+{green Fahreza - Banjarmasin}
+{bold.red Code By Fahreza}
 `);
 
 inquirer.prompt(User)
