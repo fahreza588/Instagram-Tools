@@ -120,7 +120,7 @@ const Excute = async function(User,sleep){
 		for (let i = 0; i < AccountToUnfollow.length; i++) {
 			await Promise.all(AccountToUnfollow[i].map(async(akun) => {
 				const doUnfollow = await Unfollow(doLogin.session, akun);
-				console.log(chalk'Unfollow {blue [${akun}]} => ${doUnfollow}`);	
+				console.log(chalk`Unfollow {blue [${akun}]} => ${doUnfollow}`);	
 			}))
 			await console.log(chalk`{yellow [-] Delay For ${sleep} MiliSeconds}`);
 			await delay(sleep);	
