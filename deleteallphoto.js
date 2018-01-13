@@ -100,7 +100,7 @@ const Excute = async function(User,sleep){
 
 		/** TRY TO DELETE ALL MEDIA **/
 		for (let i = 0; i < getMedia.length; i++) {
-			console.log('[?] Try to delete 5 photo\n')
+			console.log('[?] Try to delete 10 photo\n')
 			await Promise.all(getMedia[i].map(async(media) => {
 				const doDelete = await Delete(doLogin.session, media.id);
 				const PrintOut = chalk`> ${media.link} => ${doDelete ? chalk`{bold.green Sukses}` : chalk`{bold.red Gagal}`}`
